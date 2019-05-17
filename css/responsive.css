@@ -1,0 +1,165 @@
+
+
+
+@media(min-width:576px){
+    
+    
+    
+    
+    
+    
+}
+
+
+@media(min-width:768px){
+    
+    
+    
+    .navbar-nav li{
+    background: transparent;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s linear;
+}
+
+
+
+.navbar-nav li:hover a,
+.navbar-nav li a.active{
+    background: transparent;
+    border-bottom: 2px solid #f7cc4b;
+}
+
+.navbar-nav li a.nav-link{
+
+    color:#fff !important;
+    transition: 0.5s linear;
+}
+
+.navbar-nav li:hover a.nav-link,
+.navbar-nav li a.active{
+    color:#fff !important;
+}
+
+#main-menu{
+    margin: 0px;
+}
+
+.navbar-brand{
+    max-width: 130px;
+}
+    
+
+.hello h2{
+    
+    font-size: 60px !important;
+}
+
+
+
+.achievements .achievements-value{
+    font-size: 50px;
+    letter-spacing: -2.5px;
+}
+    
+    
+}
+
+
+@media(min-width:992px){
+    
+    html{
+        font-size: 16px;
+    }
+    
+    .navbar-brand{
+    max-width: 250px;
+}
+
+.navbar-nav li a{
+    padding: 8px 15px !important;
+}
+
+.hello{
+    padding: 300px 0;
+}
+
+.lead-slider-wrapper:after{
+    height: 150px;
+}
+
+.lead-slider-wrapper .owl-dots{
+    bottom: 200px;
+}
+
+.custom-padding{
+    padding: 100px 0 !important;
+}
+
+
+
+.about h2{
+    font-size:  60px;
+}
+
+.section-title{
+    font-size: 60px;
+}
+
+.pseudo{
+    padding: 250px 0;
+}
+
+.video:before, .video:after,
+.parallax:before, .parallax:after,
+.portfolio:before, .portfolio:after,
+.subscribe:before
+{
+    height: 150px;
+}
+    
+
+.team figure{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+}
+
+
+.achievements .achievements-value{
+    font-size: 84px;
+    letter-spacing: -2.5px;
+}
+
+
+.testimonials .testimonials-item p{
+    font-size: 27px;
+}
+    
+}
+
+
+
+
+
+@media(min-width:1200px){
+    
+    
+    
+    .hello h2{
+    
+    font-size: 82px !important;
+}
+    
+    
+
+.team figure{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+}
+    
+}
